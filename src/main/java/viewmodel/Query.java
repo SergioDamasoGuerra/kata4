@@ -18,3 +18,4 @@ public class Query {
         return store.movies().collect(groupingBy(Movie::year, counting()));
     }
 }
+
